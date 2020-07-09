@@ -3,28 +3,10 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 //import logo from './logo.svg';
 import './App.css';
-import Home from './components/Home';
-import Profile from './components/Profile';
-import Navigation from './components/Navigation';
+import Home from './Components/Home';
+import Profile from './Components/Profile';
+import Navigation from './Components/Navigation';
 
-<<<<<<< HEAD
-import Homepage from '../src/Components/Homepage/Homepage';
-
-/*
-
-This is our root component, so when we call start, this gets rendered first
-
-Make sure when we want to use another component to import it, like I did with Homepage
-
-
-*/
-function App() {
-  return (
-   <div>
-     <Homepage/>
-   </div>
-  );
-=======
 class App extends Component {
   render() {
     return (      
@@ -40,7 +22,6 @@ class App extends Component {
       </BrowserRouter>
     );
   }
->>>>>>> Caelen-1
 }
 
 export default App;
