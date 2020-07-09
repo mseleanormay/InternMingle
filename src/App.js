@@ -2,24 +2,21 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import Homepage from '../src/Components/Homepage/Homepage';
+
+/*
+
+This is our root component, so when we call start, this gets rendered first
+
+Make sure when we want to use another component to import it, like I did with Homepage
+
+
+*/
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div>
+     <Homepage/>
+   </div>
   );
 }
 
