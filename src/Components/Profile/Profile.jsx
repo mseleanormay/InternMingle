@@ -6,9 +6,9 @@ import Text from 'terra-text';
 import Tag from 'terra-tag';
 import pic1 from './pic1.jpg'
 import pic2 from './pic2.jpg'
-import pic3 from './pic3.jpg'
+import pic3 from './pic5.jpg'
 import pic4 from './pic4.jpg'
-import pic5 from './pic5.jpg'
+import pic5 from './pic3.jpg'
 
 function Profile(){
 
