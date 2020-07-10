@@ -14,7 +14,7 @@ function Profile(){
 
     return(
         <div>
-        <div style={{float: 'left', paddingLeft: "30px", paddingBottom: "20px", paddingTop: "20px"}}>
+        <div id="p1" style={{float: 'left', paddingLeft: "30px", paddingBottom: "20px", paddingTop: "20px"}}>
             <Card style={{width: "250px", height: "270px"}}>
                 <div style={{textAlign: "center", paddingTop: "10px"}}>
                     <div>
@@ -36,7 +36,7 @@ function Profile(){
             </Card>
         </div>
 
-<div style={{float: 'left', paddingLeft: "30px", paddingBottom: "20px", paddingTop: "20px"}}>
+<div id="p2" style={{float: 'left', paddingLeft: "30px", paddingBottom: "20px", paddingTop: "20px"}}>
 <Card style={{width: "250px", height: "270px"}}>
     <div style={{textAlign: "center", paddingTop: "10px"}}>
         <div>
@@ -52,13 +52,13 @@ function Profile(){
             <Tag text="Drawing" />
             <Tag text="Photography" />
             <Tag text= "University of Kansas"/>
-            <Tag text="Python" />
+            <Tag text="Ruby" />
         </div>
     </div>
 </Card>
 </div>
 
-<div style={{float: 'left', paddingLeft: "30px", paddingBottom: "20px", paddingTop: "20px"}}>
+<div id="p3" style={{float: 'left', paddingLeft: "30px", paddingBottom: "20px", paddingTop: "20px"}}>
             <Card style={{width: "250px", height: "270px"}}>
                 <div style={{textAlign: "center", paddingTop: "10px"}}>
                     <div>
@@ -73,14 +73,14 @@ function Profile(){
                     <div style={{paddingBottom: "20px", paddingTop: "20px"}}>
                         <Tag text="Truman State University" />
                         <Tag text="Drawing" />
-                        <Tag text="C++" />
+                        <Tag text="Python" />
                         <Tag text="Music" />
                     </div>
                 </div>
             </Card>
         </div>
 
-<div style={{float: 'left', paddingLeft: "30px", paddingBottom: "20px", paddingTop: "20px"}}>
+<div id="p4" style={{float: 'left', paddingLeft: "30px", paddingBottom: "20px", paddingTop: "20px"}}>
 <Card style={{width: "250px", height: "270px"}}>
     <div style={{textAlign: "center", paddingTop: "10px"}}>
         <div>
@@ -102,7 +102,7 @@ function Profile(){
 </Card>
 </div>
 
-<div style={{float: 'left', paddingLeft: "30px", paddingBottom: "20px", paddingTop: "20px"}}>
+<div id="p5" style={{float: 'left', paddingLeft: "30px", paddingBottom: "20px", paddingTop: "20px"}}>
             <Card style={{width: "250px", height: "270px"}}>
                 <div style={{textAlign: "center", paddingTop: "10px"}}>
                     <div>

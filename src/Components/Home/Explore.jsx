@@ -31,16 +31,67 @@ function Explore(){
     //   const personArr = result.map( person => {
     //     return <Profile person={person}/>
     // })
+    const sportsOnChange = () => {
+        const temp1 = document.getElementById('p3');
+        const temp2 = document.getElementById('p4');
+        const temp3 = document.getElementById('p2');
+        const temp4 = document.getElementById('p1');
+        if(temp1.style.display == "none"){
+            temp1.style.display = "block";
+            temp2.style.display = "block";
+            temp3.style.display = "block";
+            temp4.style.display = "block";
+        } else {
+            temp1.style.display = "none";
+            temp2.style.display = "none";
+            temp3.style.display = "none";
+            temp4.style.display = "none";
+        }
+    }
+
+    const rubyOnChange = () => {
+        const temp1 = document.getElementById('p3');
+        const temp2 = document.getElementById('p4');
+        const temp3 = document.getElementById('p5');
+        if(temp1.style.display == "none"){
+            temp1.style.display = "block";
+            temp2.style.display = "block";
+            temp3.style.display = "block";
+        } else {
+            temp1.style.display = "none";
+            temp2.style.display = "none";
+            temp3.style.display = "none";
+        }
+    }
+
+    const KUOnChange = () => {
+
+        const temp1 = document.getElementById('p3');
+        const temp2 = document.getElementById('p4');
+        const temp3 = document.getElementById('p5');
+        const temp4 = document.getElementById('p1');
+        if(temp1.style.display == "none"){
+            temp1.style.display = "block";
+            temp2.style.display = "block";
+            temp3.style.display = "block";
+            temp4.style.display = "block";
+        } else {
+            temp1.style.display = "none";
+            temp2.style.display = "none";
+            temp3.style.display = "none";
+            temp4.style.display = "none";
+        }
+    }
 
     return(
         <Spacer paddingTop="medium" paddingLeft="medium" paddingRight="medium">
-            <Card variant="raised" style={{width: "1500px", marginLeft: "auto", marginRight: "auto"}}>
+            <Card variant="raised" style={{height:"1000px", width: "1500px", marginLeft: "auto", marginRight: "auto"}}>
                 <ActionHeader title="Explore"/>
                 <Spacer paddingTop="medium" paddingLeft="medium" paddingRight="medium" paddingBottom="medium">
                     <div style={{borderRight: '1px solid', width: '200px', float: 'left'}} >
-                        <Checkbox id="first" labelText="Sports" />
-                        <Checkbox id="second" labelText="Ruby" />
-                        <Checkbox id="third" labelText="University of Kansas" />
+                        <Checkbox id="first" labelText="Sports" onChange={sportsOnChange}/>
+                        <Checkbox id="second" labelText="Ruby" onChange={rubyOnChange}/>
+                        <Checkbox id="third" labelText="University of Kansas" onChange={KUOnChange}/>
                     </div>
                     <div style={{float:'left', paddingLeft: '20px', width: "1200px"}}>
                         <Profile />
