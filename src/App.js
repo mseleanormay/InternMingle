@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 //import logo from './logo.svg';
 import './App.css';
 import Home from './Components/Home/Home';
-import Profile from './Components/CreateProfile/Profile';
+import SignUp from './Components/CreateProfile/SignUp.jsx';
 import Navigation from './Components/Navigation';
 
 class App extends Component {
@@ -16,7 +16,7 @@ class App extends Component {
           <Navigation />
             <Switch>
              <Route path="/" component={Home} exact/>
-             <Route path="/Profile" component={Profile}/>
+             <Route path="/SignUp" component={SignUp}/>
            </Switch>
         </div> 
       </BrowserRouter>
