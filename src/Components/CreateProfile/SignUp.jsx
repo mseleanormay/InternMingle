@@ -15,6 +15,7 @@ const SignUp = () => {
          
           <h3>Name:</h3>
           <InputField
+          label=""
             inputId="profile-name"
             type="text"
             placeholder="First and Last Name"
@@ -27,6 +28,7 @@ const SignUp = () => {
          <Card>
           <h3>Biography:</h3>
           <InputField
+          inputId=""
             type="text"
             placeholder="Bio"
          />

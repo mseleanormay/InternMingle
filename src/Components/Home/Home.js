@@ -6,6 +6,7 @@ import Explore from './Explore';
 import Text from 'terra-text';
 import Avatar from 'terra-avatar';
 import Card from 'terra-card';
+import pic from './pic.jpeg'
  
 const Home = () => {
     return (
@@ -17,7 +18,7 @@ const Home = () => {
             <div style={{textAlign: "center", paddingTop: "10px"}}>
                 <Card>
                     <div style={{paddingLeft: "10px", paddingTop: "10px", paddingBottom: "10px", paddingRight: "10px"}}>
-                          <Avatar alt="User" image={logo} size="1.5em" initials="JS"/>
+                          <Avatar alt="User" image={pic} size="1.5em" initials="JS"/>
                             <Text fontSize={24} weight={400} style={{paddingLeft: "10px"}}>John Doe</Text>
                     </div>
                 </Card>   
