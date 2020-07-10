@@ -10810,6 +10810,27 @@ terra-action-header@^2.52.0:
     terra-mixins "^1.36.0"
     terra-theme-context "^1.0.0"
 
+terra-arrange@^3.35.0:
+  version "3.35.0"
+  resolved "https://registry.yarnpkg.com/terra-arrange/-/terra-arrange-3.35.0.tgz#8d86878054a5077746bf07be499661b6a17c946f"
+  integrity sha512-KARSr10o40tAPI64pCFeGO4GthrzpsbBkuinQ15d4RLb1rAT1hthMAM0HcmEMJ+0sd8FtQtKZuOWDLZAKy6Vdg==
+  dependencies:
+    classnames "^2.2.5"
+    lodash.uniqueid "^4.0.1"
+    prop-types "^15.5.8"
+    terra-icon "^3.33.0"
+
+terra-avatar@^3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/terra-avatar/-/terra-avatar-3.6.0.tgz#eb6c9c9dca19d5e80b46b03f6370212daf42da20"
+  integrity sha512-Iun41CMac82S4QBfZwqwrNmSS88wKP8AhGoIQl8tgpBvPCCsE2gWF1nx46MVkJyyhzZbDbmLdcG2FlSE4F5xRA==
+  dependencies:
+    classnames "^2.2.5"
+    prop-types "^15.5.8"
+    terra-image "^3.29.0"
+    terra-mixins "^1.36.0"
+    terra-theme-context "^1.0.0"
+
 terra-button-group@^3.43.0:
   version "3.43.0"
   resolved "https://registry.yarnpkg.com/terra-button-group/-/terra-button-group-3.43.0.tgz#44d3f028aed5cd76e8b4be2432d4ab164f72ae1a"
@@ -10955,6 +10976,27 @@ terra-spacer@^3.42.0:
     prop-types "^15.5.8"
     terra-button "^3.43.0"
     terra-image "^3.29.0"
+    terra-theme-context "^1.0.0"
+
+terra-tag@^2.36.0:
+  version "2.36.0"
+  resolved "https://registry.yarnpkg.com/terra-tag/-/terra-tag-2.36.0.tgz#1cb5c83c917e56a2d6c6cb562edef1f18a59924a"
+  integrity sha512-RjRdHcoWmKwmtFmnVo5G8rPjMSTsXPfXTUAizn4GCogheMptMvh5qqHGU4UH7oWznLWYXTrsK6jF6wTExK6o7A==
+  dependencies:
+    classnames "^2.2.5"
+    keycode-js "^2.0.1"
+    prop-types "^15.5.8"
+    terra-icon "^3.33.0"
+    terra-theme-context "^1.0.0"
+
+terra-text@^4.32.0:
+  version "4.32.0"
+  resolved "https://registry.yarnpkg.com/terra-text/-/terra-text-4.32.0.tgz#467bcfd7093cf981b6b8d278aa9318fb2ce57b50"
+  integrity sha512-eyzKmXYybcmkOwU4rUdSD2q5JtL0ivwuRVaiSHUwnRzFGRd/WFJbJJyO1iycmS8qSwqGq5IOuc81YZmMDEazyQ==
+  dependencies:
+    classnames "^2.2.5"
+    prop-types "^15.5.8"
+    terra-arrange "^3.35.0"
     terra-theme-context "^1.0.0"
 
 terra-theme-context@^1.0.0:

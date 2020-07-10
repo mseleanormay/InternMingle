@@ -4,7 +4,8 @@ import Checkbox from 'terra-form-checkbox';
 import Card from 'terra-card';
 //import ActionFooter from 'terra-action-footer';
 //import ActionHeader from 'terra-action-header';
-//import Button from 'terra-button';
+import Button from 'terra-button';
+import Home from '../Home/Home';
 
 const SignUp = () => {
     return (
@@ -129,6 +130,13 @@ const SignUp = () => {
          />
          </div>
          </Card>
+         <Button text="Submit" variant="emphasis" onClick={()=>{
+            const temp = document.getElementById('homepage');
+      temp.style.display = "block";
+      const temp2 = document.getElementById('createprofile');
+      temp2.style.display = "none";
+      
+      }}/>
        </div>
     );
 }
